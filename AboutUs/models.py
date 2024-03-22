@@ -13,7 +13,7 @@ class MissionVision(models.Model):
     
 class HistoryofCollege(models.Model):
     Description = models.CharField(max_length=500)
-    image = models.ImageField(upload_to='media/')
+    image = models.ImageField(upload_to='media/history')
     
     def __str__(self):
         return self.Description
